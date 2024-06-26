@@ -52,7 +52,7 @@ def afforestation_area():
     # here cm is consider to be in accordance to map font
     row_cm = row/cm_2_pixel
     col_cm = col/cm_2_pixel
-    tot_area_cm = tot_pixels/(row_cm*col_cm)
+    tot_area_cm = (row_cm*col_cm)
     tot_area_cm_land = tot_area_cm*percentage_of_land
 
     print("Total area in cm^2 : ", tot_area_cm_land)
