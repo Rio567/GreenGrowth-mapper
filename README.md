@@ -52,9 +52,9 @@ Visual representations of the identified land types and the areas suitable for a
 
 
 
-![Screenshot (45)](https://github.com/Rio567/GreenGrowth-mapper/assets/130983781/46bcee89-ec9c-4d66-be65-53beb240be38)
+![Screenshot (44)](https://github.com/Rio567/GreenGrowth-mapper/assets/130983781/c3c13fdc-a8c4-4b3d-ba65-0cb725dfeb00)
 
-![Screenshot (44)](https://github.com/Rio567/GreenGrowth-mapper/assets/130983781/e3ac3f51-4b87-4482-bacc-a12ed9934b09)
+![Screenshot (45)](https://github.com/Rio567/GreenGrowth-mapper/assets/130983781/86c20f1b-532e-4a56-a635-538e0508e10a)
 
 ![pic3](https://github.com/Rio567/Green_Growth-mapper/assets/130983781/250ef394-eca6-4e01-b796-dfade059990c)
 
