@@ -10,27 +10,28 @@ Details:
 User Input: The user enters a location name.
 Geocoding Service: The project uses an API (like OpenWeatherMap Geocoding API) to convert the location name into geographical coordinates.
 Process: The script sends a request to the geocoding service, receives the coordinates, and extracts the latitude and longitude. This step is crucial as it provides the necessary information to fetch satellite imagery for the given location.
+
 Step 2: Image Retrieval
+
 Objective: To fetch a satellite image of the specified location using the obtained coordinates.
 
-Details:
 
 Coordinates: The latitude and longitude from the previous step are used.
 Satellite Imagery Service: The project uses a service like Bing Maps Imagery API to retrieve satellite images.
 Process: The script constructs a URL using the coordinates and sends a request to the satellite imagery service. The response is a high-resolution image of the specified location, which is then saved locally for further processing.
+
 Step 3: Image Processing
 Objective: To analyze the satellite image and identify different land types such as trees, houses, roads, and fields.
 
-Details:
 
 Image Loading: The saved satellite image is loaded into the program.
 Image Filtering: Techniques like mean shift filtering are applied to enhance the image and reduce noise.
 Color Space Conversion: The image is converted from BGR (Blue, Green, Red) to HSV (Hue, Saturation, Value) color space to facilitate easier segmentation of different land types.
 Thresholding and Masking: Thresholding techniques are used to create binary masks for different land types based on their color ranges in the HSV space. This helps in segmenting areas covered by trees, houses, roads, and fields.
+
 Step 4: Afforestation Area Calculation
 Objective: To calculate the area available for afforestation and estimate the number of trees that can be planted.
 
-Details:
 
 Mask Application: The masks created in the previous step are applied to the image to isolate areas of interest.
 Pixel Count: The number of non-zero pixels (representing areas suitable for afforestation) is counted.
